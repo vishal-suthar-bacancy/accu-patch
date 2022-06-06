@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #2B2934;
+  min-height: 100vh;
+}
+
+body .sidebar {
+  width: 120px;
+  background: #1F2026;
+  min-height: 100vh;
+}
+
+body .main-container {
+  width: calc(100% -120px);
+}
+/*# sourceMappingURL=index.css.map */

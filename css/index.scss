@@ -1,0 +1,18 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background: #2B2934;
+   min-height: 100vh;
+    .sidebar{
+        width: 120px;
+        background: #1F2026;
+        min-height: 100vh;
+    }   
+    .main-container{
+        width:calc(100% -120px);
+    }
+}
