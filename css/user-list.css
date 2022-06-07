@@ -1,0 +1,209 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  letter-spacing: initial;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+button,
+a {
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+:root {
+  --color-dark: #1f2026;
+  --color-base: #2b2934;
+  --color-grey: #ababab;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-blue: #53f8ff;
+  --color-pink: #fd5d5d;
+  --color-orange: #f58220;
+  --color-yellow: #f8d716;
+  --color-border: #ffffff0d;
+}
+
+.table__section {
+  padding: 1.875rem;
+}
+
+.table__header {
+  background-color: var(--color-dark);
+  padding: 0.875rem 1.25rem;
+  border-radius: 20px;
+  margin-bottom: 1.25rem;
+}
+
+.table__tittle {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--color-white);
+}
+
+@media (min-width: 1400px) {
+  .table__tittle {
+    font-size: 1.25rem;
+  }
+}
+
+.table__tittle--btn {
+  background-color: var(--color-orange);
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.625rem 2rem;
+  color: var(--color-white);
+  border: 1px solid var(--color-black);
+  border-radius: 10px;
+  -webkit-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
+}
+
+.table__tittle--btn:hover,
+.table__tittle--btn :focus,
+.table__tittle--btn :active {
+  border: 1px solid var(--color-orange);
+  color: var(--color-orange);
+  background-color: var(--color-white);
+}
+
+.table__main {
+  background-color: var(--color-dark);
+  padding: 0.25rem 1.25rem;
+  border-radius: 20px;
+}
+
+.table__main .table__user {
+  border-collapse: separate;
+  border-spacing: 0 1.25rem;
+  table-layout: fixed;
+}
+
+.table__main .table__user tr {
+  -webkit-box-shadow: 0px 5px 7px #00000033;
+          box-shadow: 0px 5px 7px #00000033;
+}
+
+.table__main .table__user td {
+  background-color: var(--color-base);
+  padding-block: 1.25rem;
+  vertical-align: middle;
+  border: 0;
+  border-block: 1px solid var(--color-border);
+}
+
+.table__main .table__user td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 1.25rem;
+}
+
+.table__main .table__user td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-right: 1.25rem;
+  width: 10%;
+}
+
+.table__main .table__user--img {
+  width: 60px;
+}
+
+@media (min-width: 1400px) {
+  .table__main .table__user--img {
+    width: 80px;
+  }
+}
+
+.table__main .table__user--label {
+  font-size: 0.7rem;
+  color: var(--color-grey);
+}
+
+@media (min-width: 1400px) {
+  .table__main .table__user--label {
+    font-size: 0.875rem;
+  }
+}
+
+.table__main .table__user--data {
+  font-size: 1rem;
+  color: var(--color-white);
+  font-weight: normal;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.table__main .table__user--data.text-blue {
+  color: var(--color-blue);
+}
+
+.table__main .table__user--data.text-pink {
+  color: var(--color-pink);
+}
+
+.table__main .table__user--data.text-yellow {
+  color: var(--color-yellow);
+}
+
+@media (min-width: 1400px) {
+  .table__main .table__user--data {
+    font-size: 1.5rem;
+  }
+}
+
+.table__main .table__user--iconsgroup .icons__btn {
+  background-color: var(--color-dark);
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.table__main .pagination .page-link {
+  background-color: transparent;
+  border-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #747474;
+}
+
+.table__main .pagination .page-link.active {
+  color: #ffffff;
+}
+
+.table__main .pagination .page-link span {
+  color: #ff9949;
+}
+/*# sourceMappingURL=table.css.map */

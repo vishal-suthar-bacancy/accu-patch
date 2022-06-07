@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="40" viewBox="0 0 92 40">
+  <g id="Bp" transform="translate(-1638 -153)">
+    <g id="Filter" transform="translate(-99 104)">
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="20" cy="20" r="20" transform="translate(1737 49)" fill="#2b2934"/>
+      <g id="Group_34" data-name="Group 34" transform="translate(1742 54)">
+        <path id="filter-2" data-name="filter" d="M208.4,256.484a.716.716,0,0,1-.174.869l-6.119,6.119v9.209a.742.742,0,0,1-.484.732.863.863,0,0,1-.31.062.738.738,0,0,1-.559-.236l-3.177-3.177a.763.763,0,0,1-.236-.559v-6.032l-6.119-6.119a.716.716,0,0,1-.174-.869.742.742,0,0,1,.732-.484h15.886A.742.742,0,0,1,208.4,256.484Z" transform="translate(-184.729 -249.75)" fill="#fff"/>
+        <rect id="Rectangle_43" data-name="Rectangle 43" width="30" height="30" fill="none"/>
+      </g>
+    </g>
+    <text id="Filter-3" data-name="Filter" transform="translate(1688 180)" fill="#fff" font-size="19" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Filter</tspan></text>
+  </g>
+</svg>

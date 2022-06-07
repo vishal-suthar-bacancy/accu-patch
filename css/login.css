@@ -1,0 +1,570 @@
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('/fonts/') format('truetype'),
+        url('/fonts/Gilroy-Regular.woff') format('woff'),
+        url('/fonts/Gilroy-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('/fonts/Gilroy-Medium.ttf') format('truetype'),
+        url('/fonts/Gilroy-Medium.woff') format('woff'),
+        url('/fonts/Gilroy-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('/fonts/Gilroy-SemiBold.ttf') format('truetype'),
+        url('/fonts/Gilroy-SemiBold.woff') format('woff'),
+        url('/fonts/Gilroy-SemiBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('/fonts/Gilroy-Bold.ttf') format('truetype'),
+        url('/fonts/Gilroy-Bold.woff') format('woff'),
+        url('/fonts/Gilroy-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Heavy';
+    src: url('/fonts/Gilroy-Heavy.ttf') format('truetype'),
+        url('/fonts/Gilroy-Heavy.woff') format('woff'),
+        url('/fonts/Gilroy-Heavy.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.login-page {
+    background: transparent radial-gradient(closest-side at 34% 48%, #313131 0%, #171617 100%) 0% 0% no-repeat padding-box;
+}
+
+.login-page {
+    position: relative;
+}
+
+.login-page::before {
+    content: "";
+    position: absolute;
+    left: -26px;
+    bottom: 0px;
+    background-image: url('../images/hospital.png');
+    background-position: top;
+    background-size: cover;
+    width: 363px;
+    height: 246px;
+}
+
+.login-page .left-part {
+    flex: 1;
+    padding: 0;
+    display: flex;
+}
+
+.login-page .first-sec {
+    padding-left: 102px;
+    padding-top: 200px;
+    flex: 1;
+}
+
+.login-page .first-sec h3 {
+    color: white;
+    font-size: 69px;
+    font-family: 'Gilroy-Heavy';
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.login-page .first-sec h3::after {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: -100px;
+    background-image: url('../images/Arrow-orange.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 141px;
+    height: 138px;
+}
+
+.login-page .first-sec p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Gilroy-Medium';
+    margin-bottom: 93px;
+    padding-right: 50px;
+}
+
+.icons .icon-box {
+    width: 130px;
+    height: 130px;
+    border: 1px solid #68626269;
+    border-radius: 32px;
+    opacity: 1;
+    margin-right: 42px;
+    background-color: rgba(78, 69, 6950%);
+    position: relative;
+    background: #4E4545;
+    backdrop-filter: blur(23px);
+    -webkit-backdrop-filter: blur(23px);
+}
+
+.icons .icon-box::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    width: 50px;
+    height: 34px;
+    background: #FF9797 0% 0% no-repeat padding-box;
+    filter: blur(34px);
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.icons .icon-box:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.login-page .last-sec {
+    padding-top: 145px;
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.login-page .last-sec .img-set-fan {
+    position: relative;
+    left: 55px;
+    width: 669px;
+    height: 790px;
+}
+
+.login-page .last-sec::before,
+.login-page .last-sec::after {
+    content: "";
+    position: absolute;
+}
+
+.login-page .last-sec::before {
+    top: 0;
+    left: 72px;
+    background-image: url('../images/u-shape.png');
+    /* width: 100%;
+    height: 100%; */
+    width: 606px;
+    height: 906px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.login-page .last-sec::after {
+    top: 700px;
+    left: -20px;
+    background-image: url('../images/Light-arrow-orange.png');
+    width: 167px;
+    height: 168px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right-part {
+    display: flex;
+    max-width: 585px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.right-part::after {
+    content: "";
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/shadow.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 145px;
+    height: 207px;
+    z-index: -1;
+}
+
+.right-part .login-box {
+    background: transparent url('img/Rectangle 9.png') 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 99px #020203;
+    border: 1px solid #464646;
+    border-radius: 50px;
+    opacity: 1;
+    margin: 40px 40px 40px 46px;
+    padding: 90px 40px 49px;
+    width: 100%;
+    /* max-width: 500px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.right-part .login-box .middle-sec .user-ic,
+.right-part .login-box .middle-sec .pw-ic{
+    position: relative;
+}
+.right-part .login-box .middle-sec .user-ic::before,
+.right-part .login-box .middle-sec .pw-ic::before{
+    content:"";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 32px;
+}
+
+.right-part .login-box .middle-sec .user-ic::before{
+    background-image: url('../images/user.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right-part .login-box .middle-sec .pw-ic::before{
+    background-image: url('../images/password.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-part .login-box>div {
+    width: 100%;
+}
+
+.right-part .login-box h3 {
+    font-size: 36px;
+    font-family: 'Gilroy-Heavy';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    /* margin: 120px 0 20px; */
+    margin: 0px 0 20px;
+}
+
+.right-part .login-box p {
+    font-size: 20px;
+    font-family: 'Gilroy-Medium';
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.right-part .login-box input {
+    background: #2B2934 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    border: 0;
+    height: 60px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Gilroy-Light';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.right-part .login-box input::placeholder {
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.right-part .login-box input::-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+.right-part .login-box input::-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+.right-part .login-box div:nth-child(2) input {
+    margin-bottom: 20px;
+}
+
+
+.right-part .login-box .form-group {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.right-part .login-box .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.right-part .login-box .form-group label {
+    position: relative;
+    cursor: pointer;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Gilroy-Medium';
+}
+
+.right-part .login-box .form-group label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #E6E6E6;
+    background: #E6E6E6 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.right-part .login-box .form-group input:checked+label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    width: 6px;
+    height: 14px;
+    border: solid #F58220;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.right-part .login-box a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Gilroy-Medium';
+}
+
+.right-part .login-box .frgt-line {
+    margin-bottom: 32px;
+}
+
+.right-part .login-box .login-btn {
+    background: #F58220 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    height: 60px;
+    line-height: normal;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Gilroy-Bold';
+    margin-bottom: 36px;
+}
+
+.right-part .login-box .regist-btn p {
+    color: #FFFFFF;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+}
+
+.right-part .login-box .regist-btn a {
+    color: #FFFFFF;
+    font-family: 'Gilroy-Bold';
+    font-size: 20px;
+    color: #F58220;
+}
+
+.right-part .login-box .regist-btn {
+    /* margin-bottom: 152px; */
+    margin-bottom: 0;
+}
+
+.right-part .login-box .copywrite {
+    color: #FFFFFF;
+    font-family: 'Gilroy-Medium';
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width:1780px) and (max-width:1830px) {
+    .login-page .first-sec {
+        padding-left: 70px;
+    }
+
+    .login-page .last-sec::before {
+        left: 52px;
+    }
+
+    .icons .icon-box {
+        margin-right: 32px;
+    }
+
+    .login-page .last-sec::after {
+        top: inherit;
+        bottom: 210px;
+        left: -32px;
+    }
+}
+
+
+@media screen and (min-width:1551px) and (max-width:1780px) {
+    .login-page .first-sec {
+        padding-left: 70px;
+    }
+
+    .icons .icon-box,
+    .icons .icon-box img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .login-page .first-sec h3 {
+        font-size: 59px;
+    }
+    .login-page .last-sec .img-set-fan {
+        width: 600px;
+        /* height: auto; */
+    }
+    /* .login-page .last-sec::before {
+        width: 406px;
+        height: 616px;
+        background-size: contain;
+        left: 32px;
+    } */
+    .icons .icon-box,
+    .icons .icon-box img {
+        width: 100px;
+        height: 100px;
+    }
+    .icons .icon-box{
+        margin-right: 30px;
+    }
+
+    .right-part{
+        max-width :485px;
+    }
+    .right-part .login-box{
+        margin: 20px 20px 20px 26px;
+    }
+}
+
+@media screen and (min-width:1300px) and (max-width:1550px) {
+    .login-page .first-sec {
+        padding-left: 40px;
+    }
+
+    .icons .icon-box,
+    .icons .icon-box img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .login-page .first-sec h3 {
+        font-size: 42px;
+    }
+
+    .login-page .first-sec p {
+        margin-bottom: 32px;
+    }
+
+    .icons .icon-box {
+        margin-right: 25px;
+    }
+
+    .login-page .last-sec {
+        padding-top: 80px;
+    }
+
+    .login-page .last-sec .img-set-fan {
+        width: 440px;
+        height: 500px;
+        left: 30px !important;
+    }
+
+    .login-page .last-sec::before {
+        width: 406px;
+        height: 576px;
+        left: 35px;
+        background-size: contain;
+    }
+    .right-part{
+        max-width :465px;
+    }
+    .right-part .login-box{
+        margin: 20px 20px 20px 26px;
+    }
+    .login-page .first-sec{
+        padding-top: 110px;
+    }
+    .login-page .first-sec p {
+        margin-right: 20px;
+    }
+    .login-page .last-sec::after{
+        top: inherit;
+        bottom: 135px;
+    }
+    .login-page::before{
+        width: 290px;
+    height: 195px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1300px) {
+    .login-page .first-sec{
+        padding-left: 30px;
+        padding-top: 100px;
+    }
+    .login-page .first-sec h3{
+        font-size: 49px;
+    }
+    .icons .icon-box {
+        width: 95px;
+        height: 95px;
+        margin-right: 20px;
+    }
+    .icons .icon-box img{
+        width: 95px;
+        height: 95px;
+    }
+    .login-page .first-sec p{
+        margin-bottom: 40px;
+    }
+    .login-page .last-sec::before {
+        background-size: contain;
+    }
+    .right-part{
+        max-width: 400px;
+    }
+    .login-page .last-sec{
+        padding-top: 70px;
+    }
+    .login-page::before{
+        width: 293px;
+        height: 196px;
+    }
+    .login-page .last-sec .img-set-fan {
+        width: 390px;
+        height: 610px;
+        left: 60px;
+    }
+    .right-part .login-box{
+        margin: 20px 20px 20px 26px;
+        padding: 40px 20px 29px;
+    }
+    .login-page .last-sec::before {
+        width: 402px;
+        height: 606px;
+        left: 37px;    
+    }
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Room</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/profil-detail.css"/>
+</head>
+<body>
+    <section class="profile-detail user-dashboard-detail add-new-patient">
+        <div class="d-flex align-items-start">
+            <div class="sidebar d-flex flex-column ">
+        <a href="#" class="sidebar-logo"><img src="./images/Bacancy_Logo.svg" alt="logo"/></a>
+        <ul class="nav nav-pills nav-flush flex-column mb-auto text-center ps-0">
+            <li class="nav-item active">
+                <a href="#" class="nav-link"> 
+                    <img class="noraml-img" src="./images/Dashboard.png" alt="icon" />
+                    <img class="active-img" src="./images/Active-Dashboard.png" alt="icon" />
+                    <small>Dashboard</small>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link"> 
+                    <img class="noraml-img" src="./images/user.png" alt="icon" />
+                    <img class="active-img" src="./images/Active-user.png" alt="icon" />
+                    <small>Patients</small>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link"> 
+                    <img class="noraml-img" src="./images/Rooms.png" alt="icon" />
+                    <img class="active-img" src="./images/Active-Rooms.png" alt="icon" />
+                    <small>Rooms</small>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link"> 
+                    <img class="noraml-img" src="./images/Settings.png" alt="icon" />
+                    <img class="active-img" src="./images/Active-Settings.png" alt="icon" />
+                    <small>Settings</small>
+                </a>
+            </li>
+        </ul>
+        <div class="notification-ic d-inline-flex justify-content-center align-items-center">
+        <a href="#" class="notification"><img src="./images/notification.png" alt="notification"/></a>
+        </div>
+        <div class="profile-ic d-inline-flex justify-content-center align-items-center">
+            <a href="#" class="profile"><img src="./images/profile-ic.png" alt="notification"/></a>
+        </div>
+    
+    </div>
+            <div class="main-container">
+                <div class="p-4">
+                    <div class="card w-100 bg-dark rounded-20 border-0 mb-4">
+                        <div class="card-header py-3 d-flex align-items-center bg-none border-0 text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                <g id="Group_196" data-name="Group 196" transform="translate(-3796 99)">
+                                  <rect id="Rectangle_84" data-name="Rectangle 84" width="30" height="30" transform="translate(3796 -99)" fill="none"/>
+                                  <path id="Path_423" data-name="Path 423" d="M26.5,15.273H6.5m0,0,8.342,7.273M6.5,15.273,14.842,8" transform="translate(3795 -99.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                </g>
+                            </svg>
+                            <span class="ms-2">Add Room</span>
+                        </div>
+                    </div>
+                    <div class="card w-100 bg-dark rounded-20 border-0">
+                        <div class="card-header bg-dark py-3 rounded-10 min-hvh-100">
+                            <form>
+                                <div class="row mb-3">
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <span class="form-icon right-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6.799" viewBox="0 0 12 6.799">
+                                                <path id="Path_454" data-name="Path 454" d="M19.64,12.225,15,16.865l-4.64-4.64A.8.8,0,0,0,9.225,13.36l5.2,5.2a.807.807,0,0,0,1.14,0l5.2-5.2a.8.8,0,0,0-1.135-1.135Z" transform="translate(-9 -12)" fill="#fff"/>
+                                            </svg>
+                                            </span>
+                                            <label class="ps-3">Room Number</label>
+                                            <select class="form-select form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold" aria-label="Default select example">
+                                                <option hidden>Select Room Number</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <span class="form-icon right-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6.799" viewBox="0 0 12 6.799">
+                                                <path id="Path_454" data-name="Path 454" d="M19.64,12.225,15,16.865l-4.64-4.64A.8.8,0,0,0,9.225,13.36l5.2,5.2a.807.807,0,0,0,1.14,0l5.2-5.2a.8.8,0,0,0-1.135-1.135Z" transform="translate(-9 -12)" fill="#fff"/>
+                                            </svg>
+                                            </span>
+                                            <label class="ps-3">Floor Number</label>
+                                            <select class="form-select form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold" aria-label="Default select example">
+                                                <option hidden>Select Floor Number</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <span class="form-icon right-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6.799" viewBox="0 0 12 6.799">
+                                                <path id="Path_454" data-name="Path 454" d="M19.64,12.225,15,16.865l-4.64-4.64A.8.8,0,0,0,9.225,13.36l5.2,5.2a.807.807,0,0,0,1.14,0l5.2-5.2a.8.8,0,0,0-1.135-1.135Z" transform="translate(-9 -12)" fill="#fff"/>
+                                            </svg>
+                                            </span>
+                                            <label class="ps-3">Room Type</label>
+                                            <select class="form-select form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold" aria-label="Default select example">
+                                                <option hidden>Select Type</option>
+                                                <option selected value="1">Normal</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <span class="form-icon right-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6.799" viewBox="0 0 12 6.799">
+                                                <path id="Path_454" data-name="Path 454" d="M19.64,12.225,15,16.865l-4.64-4.64A.8.8,0,0,0,9.225,13.36l5.2,5.2a.807.807,0,0,0,1.14,0l5.2-5.2a.8.8,0,0,0-1.135-1.135Z" transform="translate(-9 -12)" fill="#fff"/>
+                                            </svg>
+                                            </span>
+                                            <label class="ps-3">Bed Count</label>
+                                            <select class="form-select form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold" aria-label="Default select example">
+                                                <option hidden>Select Count</option>
+                                                <option value="1">01</option>
+                                                <option selected value="2">02</option>
+                                                <option value="3">03</option>
+                                                <option value="4">04</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <span class="form-icon right-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6.799" viewBox="0 0 12 6.799">
+                                                <path id="Path_454" data-name="Path 454" d="M19.64,12.225,15,16.865l-4.64-4.64A.8.8,0,0,0,9.225,13.36l5.2,5.2a.807.807,0,0,0,1.14,0l5.2-5.2a.8.8,0,0,0-1.135-1.135Z" transform="translate(-9 -12)" fill="#fff"/>
+                                            </svg>
+                                            </span>
+                                            <label class="ps-3">Room Status</label>
+                                            <select class="form-select form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold" aria-label="Default select example">
+                                                <option hidden>Select Count</option>
+                                                <option selected value="1">Full</option>
+                                            </select>
+                                        </div>
+                                    </div>                                   
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <a href="" class="btn btn-outline-warning me-3 text-semibold">Cancel</a>
+                                        <a href="" class="btn btn-solid-warning text-semibold">Add Room</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+    <script src="js/apexChart.js"></script>
+    <script src="js/main.js"></script>
+
+   
+</body>
+</html>

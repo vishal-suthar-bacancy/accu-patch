@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Patient</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/profil-detail.css"/>
+</head>
+<body>
+    <section class="profile-detail user-dashboard-detail add-new-patient">
+        <div class="d-flex align-items-start">
+            <div class="sidebar d-flex flex-column ">
+        <a href="#" class="sidebar-logo"><img src="./images/Bacancy_Logo.svg" alt="logo"/></a>
+        <ul class="nav nav-pills nav-flush flex-column mb-auto text-center ps-0">
+            <li class="nav-item active">
+                <a href="#" class="nav-link"> 
+                    <img class="noraml-img" src="./images/Dashboard.png" alt="icon" />
+                    <img class="active-img" src="./images/Active-Dashboard.png" alt="icon" />
+                    <small>Dashboard</small>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link"> 
+                    <img class="noraml-img" src="./images/user.png" alt="icon" />
+                    <img class="active-img" src="./images/Active-user.png" alt="icon" />
+                    <small>Patients</small>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link"> 
+                    <img class="noraml-img" src="./images/Rooms.png" alt="icon" />
+                    <img class="active-img" src="./images/Active-Rooms.png" alt="icon" />
+                    <small>Rooms</small>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link"> 
+                    <img class="noraml-img" src="./images/Settings.png" alt="icon" />
+                    <img class="active-img" src="./images/Active-Settings.png" alt="icon" />
+                    <small>Settings</small>
+                </a>
+            </li>
+        </ul>
+        <div class="notification-ic d-inline-flex justify-content-center align-items-center">
+        <a href="#" class="notification"><img src="./images/notification.png" alt="notification"/></a>
+        </div>
+        <div class="profile-ic d-inline-flex justify-content-center align-items-center">
+            <a href="#" class="profile"><img src="./images/profile-ic.png" alt="notification"/></a>
+        </div>
+    
+    </div>
+            <div class="main-container">
+                <div class="p-4">
+                    <div class="card w-100 bg-dark rounded-20 border-0 mb-4">
+                        <div class="card-header py-3 d-flex align-items-center bg-none border-0 text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                                <g id="Group_196" data-name="Group 196" transform="translate(-3796 99)">
+                                  <rect id="Rectangle_84" data-name="Rectangle 84" width="30" height="30" transform="translate(3796 -99)" fill="none"/>
+                                  <path id="Path_423" data-name="Path 423" d="M26.5,15.273H6.5m0,0,8.342,7.273M6.5,15.273,14.842,8" transform="translate(3795 -99.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                </g>
+                            </svg>
+                            <span class="ms-2">Add New Patient</span>
+                        </div>
+                    </div>
+                    <div class="card w-100 bg-dark rounded-20 border-0">
+                        <div class="card-header bg-dark py-3 rounded-10">
+                            <form>
+                                <h3 class="h4 text-warning text-semibold border-bottom-1 w-100 pb-3 mb-4">Patient Info</h3>
+                                <div class="row mb-3">
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Patient Name</label>
+                                            <input type="text" value="John Doe" placeholder="Enter Patient Name" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Email Address</label>
+                                            <input type="email" value="john.doe@gmail.com" placeholder="Enter Email" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Phone Number</label>
+                                            <input type="text" placeholder="Enter Phone Number" value="+91 987 654 3210" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold icon-input">
+                                            <img src="images/flag-icon.png" class="form-icon">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Emergency Number</label>
+                                            <input type="text" value="+91 987 654 3210" placeholder="Enter Phone Number" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Date of Birth</label>
+                                            <input type="type" value="30-08-1994" placeholder="Enter Date" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16.865" viewBox="0 0 16 16.865" class="form-icon right-icon">
+                                                <path id="Path_453" data-name="Path 453" d="M3.687,13.492l.632-.145Zm0-5.1.632.145Zm14.126,0-.632.145Zm0,5.1-.632-.145Zm-4.572,4.679.151.631Zm-4.982,0,.151-.631Zm0-14.457.151.631Zm4.982,0,.151-.631ZM8,2.9a.649.649,0,1,0-1.3,0ZM6.7,5.073a.649.649,0,1,0,1.3,0ZM14.8,2.9a.649.649,0,1,0-1.3,0ZM13.5,5.073a.649.649,0,1,0,1.3,0ZM4.319,13.347a10.769,10.769,0,0,1,0-4.809l-1.265-.29a12.066,12.066,0,0,0,0,5.388ZM17.181,8.538a10.769,10.769,0,0,1,0,4.809l1.265.29a12.067,12.067,0,0,0,0-5.388Zm-4.091,9a10.015,10.015,0,0,1-4.679,0l-.3,1.261a11.313,11.313,0,0,0,5.285,0ZM8.41,4.345a10.016,10.016,0,0,1,4.679,0l.3-1.261a11.313,11.313,0,0,0-5.285,0Zm0,13.2a5.56,5.56,0,0,1-4.091-4.193l-1.265.29A6.858,6.858,0,0,0,8.108,18.8ZM13.392,18.8a6.858,6.858,0,0,0,5.053-5.165l-1.265-.29A5.56,5.56,0,0,1,13.09,17.54Zm-.3-14.457a5.561,5.561,0,0,1,4.091,4.193l1.265-.29a6.858,6.858,0,0,0-5.053-5.165ZM8.108,3.083A6.858,6.858,0,0,0,3.055,8.248l1.265.29A5.56,5.56,0,0,1,8.41,4.345ZM3.952,8.113h13.6v-1.3H3.952ZM6.7,2.9V5.073H8V2.9Zm6.8,0V5.073h1.3V2.9Z" transform="translate(-2.75 -2.25)" fill="#f58220"/>
+                                            </svg>                                          
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Gender</label>
+                                            <div class="d-flex align-items-center hpx-60">
+                                                <div class="form-check form-check-inline mb-0">
+                                                    <label class="check-container">Male
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="form-check form-check-inline mb-0">
+                                                    <label class="check-container">Female
+                                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Weight (Kg)</label>
+                                            <input type="text" value="65" placeholder="Enter Weight" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Height (cm)</label>
+                                            <input type="text" value="175" placeholder="Enter Height" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4 file-upload">
+                                            <label class="ps-3">Upload Profile Image</label>
+                                            <input type="file" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Address</label>
+                                            <input type="type" placeholder="Street Address" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="form-icon right-icon">
+                                                <g id="Group_387" data-name="Group 387" transform="translate(-15499 -683)">
+                                                <g id="Group_389" data-name="Group 389" transform="translate(15499 682.998)">
+                                                    <circle id="Ellipse_55" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(9 9.002)" fill="#f58220"/>
+                                                    <path id="Path_459" data-name="Path 459" d="M22,11H19.931A8.007,8.007,0,0,0,13,4.071V2H11V4.071A8.008,8.008,0,0,0,4.069,11H2v2H4.069A8.008,8.008,0,0,0,11,19.933V22h2V19.933A8.008,8.008,0,0,0,19.931,13H22ZM12,18a6,6,0,1,1,6-6A6.007,6.007,0,0,1,12,18Z" fill="#f58220"/>
+                                                </g>
+                                                <rect id="Rectangle_128" data-name="Rectangle 128" width="24" height="24" transform="translate(15499 683)" fill="none"/>
+                                                </g>
+                                            </svg>                                                                                    
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="h4 text-warning text-semibold border-bottom-1 w-100 pb-3 mb-4">Family Member Info</h3>
+                                <div class="row mb-3">
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Member Name</label>
+                                            <input type="text" value="Rahul Sharma" placeholder="Enter Member Name" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <span class="form-icon right-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6.799" viewBox="0 0 12 6.799">
+                                                <path id="Path_454" data-name="Path 454" d="M19.64,12.225,15,16.865l-4.64-4.64A.8.8,0,0,0,9.225,13.36l5.2,5.2a.807.807,0,0,0,1.14,0l5.2-5.2a.8.8,0,0,0-1.135-1.135Z" transform="translate(-9 -12)" fill="#fff"/>
+                                            </svg>
+                                            </span>
+                                            <label class="ps-3">Family Relation</label>
+                                            <select class="form-select form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold" aria-label="Default select example">
+                                                <option hidden>Select Relation</option>
+                                                <option value="1">Son</option>
+                                                <option value="2">Daughter</option>
+                                                <option value="3">Mother</option>
+                                                <option value="4">Father</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Contact Number</label>
+                                            <input type="text" placeholder="Enter Phone Number" value="+91 987 654 3210" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold icon-input">
+                                            <img src="images/flag-icon.png" class="form-icon">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Member Name</label>
+                                            <input type="text" value="Nancy Sharma" placeholder="Enter Member Name" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <span class="form-icon right-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6.799" viewBox="0 0 12 6.799">
+                                                <path id="Path_454" data-name="Path 454" d="M19.64,12.225,15,16.865l-4.64-4.64A.8.8,0,0,0,9.225,13.36l5.2,5.2a.807.807,0,0,0,1.14,0l5.2-5.2a.8.8,0,0,0-1.135-1.135Z" transform="translate(-9 -12)" fill="#fff"/>
+                                            </svg>
+                                            </span>
+                                            <label class="ps-3">Family Relation</label>
+                                            <select class="form-select form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold" aria-label="Default select example">
+                                                <option hidden>Select Relation</option>
+                                                <option value="1">Son</option>
+                                                <option value="2">Daughter</option>
+                                                <option value="3">Mother</option>
+                                                <option value="4">Father</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Contact Number</label>
+                                            <input type="text" placeholder="Enter Phone Number" value="+91 987 654 3210" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold icon-input">
+                                            <img src="images/flag-icon.png" class="form-icon">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <h3 class="h4 text-warning text-semibold border-bottom-1 w-100 pb-3 mb-4">Doctor Info</h3>
+                                <div class="row mb-3">
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Doctor Name</label>
+                                            <input type="text" value="Arvind Sharma" placeholder="Enter Doctor Name" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <span class="form-icon right-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6.799" viewBox="0 0 12 6.799">
+                                                <path id="Path_454" data-name="Path 454" d="M19.64,12.225,15,16.865l-4.64-4.64A.8.8,0,0,0,9.225,13.36l5.2,5.2a.807.807,0,0,0,1.14,0l5.2-5.2a.8.8,0,0,0-1.135-1.135Z" transform="translate(-9 -12)" fill="#fff"/>
+                                            </svg>
+                                            </span>
+                                            <label class="ps-3">Designation</label>
+                                            <select class="form-select form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold" aria-label="Default select example">
+                                                <option hidden>Select Designation</option>
+                                                <option selected value="1">MBBS</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Contact Number</label>
+                                            <input type="text" placeholder="Enter Phone Number" value="+91 987 654 3210" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold icon-input">
+                                            <img src="images/flag-icon.png" class="form-icon">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Address</label>
+                                            <input type="type" placeholder="Street Address" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="form-icon right-icon">
+                                                <g id="Group_387" data-name="Group 387" transform="translate(-15499 -683)">
+                                                <g id="Group_389" data-name="Group 389" transform="translate(15499 682.998)">
+                                                    <circle id="Ellipse_55" data-name="Ellipse 55" cx="3" cy="3" r="3" transform="translate(9 9.002)" fill="#f58220"/>
+                                                    <path id="Path_459" data-name="Path 459" d="M22,11H19.931A8.007,8.007,0,0,0,13,4.071V2H11V4.071A8.008,8.008,0,0,0,4.069,11H2v2H4.069A8.008,8.008,0,0,0,11,19.933V22h2V19.933A8.008,8.008,0,0,0,19.931,13H22ZM12,18a6,6,0,1,1,6-6A6.007,6.007,0,0,1,12,18Z" fill="#f58220"/>
+                                                </g>
+                                                <rect id="Rectangle_128" data-name="Rectangle 128" width="24" height="24" transform="translate(15499 683)" fill="none"/>
+                                                </g>
+                                            </svg>                                                                                    
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="h4 text-warning text-semibold border-bottom-1 w-100 pb-3 mb-4">Medical History</h3>
+                                <div class="row mb-3">
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">High Blood Pressure</label>
+                                            <input type="text" value="125" placeholder="Blood Pressure" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <span class="form-icon right-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6.799" viewBox="0 0 12 6.799">
+                                                <path id="Path_454" data-name="Path 454" d="M19.64,12.225,15,16.865l-4.64-4.64A.8.8,0,0,0,9.225,13.36l5.2,5.2a.807.807,0,0,0,1.14,0l5.2-5.2a.8.8,0,0,0-1.135-1.135Z" transform="translate(-9 -12)" fill="#fff"/>
+                                            </svg>
+                                            </span>
+                                            <label class="ps-3">Diabetics</label>
+                                            <select class="form-select form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold" aria-label="Default select example">
+                                                <option hidden>Select Diabetics</option>
+                                                <option selected value="1">140</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <span class="form-icon right-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="6.799" viewBox="0 0 12 6.799">
+                                                <path id="Path_454" data-name="Path 454" d="M19.64,12.225,15,16.865l-4.64-4.64A.8.8,0,0,0,9.225,13.36l5.2,5.2a.807.807,0,0,0,1.14,0l5.2-5.2a.8.8,0,0,0-1.135-1.135Z" transform="translate(-9 -12)" fill="#fff"/>
+                                            </svg>
+                                            </span>
+                                            <label class="ps-3">Heart Condition</label>
+                                            <select class="form-select form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold" aria-label="Default select example">
+                                                <option hidden>Select Heart Condition</option>
+                                                <option selected value="1">Normal</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Thyroid</label>
+                                            <input type="text" value="NULL" placeholder="Blood Pressure" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group mb-4">
+                                            <label class="ps-3">Obesity</label>
+                                            <input type="text" value="NULL" placeholder="Blood Pressure" class="form-control mt-1 rounded-10 bg-light dark-border-1 hpx-60 text-white text-semibold">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <a href="" class="btn btn-outline-warning me-3 text-semibold">Cancel</a>
+                                        <a href="" class="btn btn-solid-warning text-semibold">Add Patient</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+    <script src="js/apexChart.js"></script>
+    <script src="js/main.js"></script>
+
+   
+</body>
+</html>
