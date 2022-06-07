@@ -1,5 +1,5 @@
       
-var options = {
+var options1 = {
     series: [{
       name: 'series1',
       color: "#7649F2",
@@ -112,8 +112,8 @@ var options = {
         },
     },
 };
-var chart = new ApexCharts(document.querySelector("#chart1"), options);
-chart.render();
+var chart1 = new ApexCharts(document.querySelector("#chart1"), options1);
+chart1.render();
 var options2 = {
     series: [{
       name: 'series1',
@@ -458,6 +458,8 @@ var bodyTempetureOpt = {
 };
 var bodyTempeture = new ApexCharts(document.querySelector("#bodyTempeture"), bodyTempetureOpt);
 bodyTempeture.render();
+
+   
 
 
 

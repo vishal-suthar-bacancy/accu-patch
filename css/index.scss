@@ -12,15 +12,12 @@
     --Steps:#f900bf;
 }
 *{
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background: #2B2934;
-    min-height: 100vh;
-    font-size: 16px;
+   
     .user-dashboard-detail{
       
         .bg{
@@ -161,6 +158,17 @@ body{
                 }
             }
         }
+        .sorting-group{
+            padding: 0rem 0.75rem;
+            border-radius: 30px;
+            background: #1F2026;
+            button{
+                color: var(--whiteColor);
+                &.active{
+                    color: var(--orangeDarkColor);
+                }
+            }
+        }
         .btn{
             border-radius: 10px;
             &-outline{
@@ -175,11 +183,7 @@ body{
                 }
             }
         }
-        .sidebar{
-            width: 120px;
-            background: #1F2026;
-            min-height: 100vh;
-        }   
+       
         .main-container{
             width:calc(100% - 120px);
         }

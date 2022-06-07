@@ -1,0 +1,283 @@
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url("../fonts/Gilroy-Regular.ttf") format("truetype"), url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype"), url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url("../fonts/Gilroy-SemiBold.ttf") format("truetype"), url("../fonts/Gilroy-SemiBold.woff") format("woff"), url("../fonts/Gilroy-SemiBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url("../fonts/Gilroy-Bold.ttf") format("truetype"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Heavy';
+  src: url("../fonts/Gilroy-Heavy.ttf") format("truetype"), url("../fonts/Gilroy-Heavy.woff") format("woff"), url("../fonts/Gilroy-Heavy.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rounded-20 {
+  border-radius: 20px;
+}
+
+.big-btn {
+  padding: .8rem 4rem;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.text-bold {
+  font-family: "Gilroy-Bold" !important;
+}
+
+.text-semibold {
+  font-family: "Gilroy-SemiBold" !important;
+}
+
+.text-medium {
+  font-family: "Gilroy-Medium" !important;
+}
+
+.text-regular {
+  font-family: "Gilroy-Regular" !important;
+}
+
+.text-secendory-color {
+  color: #E6E6E6;
+}
+
+.profile-detail .profile-name-contact .h2 {
+  font-size: 1.7rem;
+}
+
+.profile-detail .profile-name-contact .h4 {
+  font-size: 1.1rem;
+}
+
+.profile-detail p {
+  font-size: 16px;
+  font-family: 'Gilroy-Regular';
+}
+
+.profile-detail label {
+  font-size: 16px;
+  font-family: 'Gilroy-Regular';
+  color: #ABABAB;
+}
+
+.profile-detail .h2 {
+  font-family: 'Gilroy-Bold';
+}
+
+.profile-detail .h4 {
+  font-family: 'Gilroy-SemiBold';
+}
+
+.profile-detail .profile-name-contact span {
+  font-size: 2rem;
+}
+
+.profile-detail .profile-name-contact p {
+  font-size: 1.375rem;
+}
+
+.profile-detail .emergency-contact-info p {
+  font-weight: 300;
+}
+
+.add-new-patient {
+  /* Hide the browser's default radio button */
+  /* Create a custom radio button */
+  /* On mouse-over, add a grey background color */
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  /* Show the indicator (dot/circle) when checked */
+  /* Style the indicator (dot/circle) */
+}
+
+.add-new-patient .border-bottom-1 {
+  border-bottom: 1px solid #2B2934;
+}
+
+.add-new-patient .dark-border-1 {
+  border: 1px solid #3E3E3E;
+}
+
+.add-new-patient .hpx-60 {
+  height: 60px;
+}
+
+.add-new-patient .form-group {
+  position: relative;
+}
+
+.add-new-patient .form-group .form-icon {
+  position: absolute;
+  top: 68%;
+  left: 20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.add-new-patient .form-group .form-icon.right-icon {
+  left: unset;
+  right: 20px;
+}
+
+.add-new-patient .form-control {
+  font-size: 1.25rem;
+}
+
+.add-new-patient .form-control.icon-input {
+  padding-left: 3rem;
+}
+
+.add-new-patient .form-check {
+  padding-left: 0px;
+}
+
+.add-new-patient .check-container {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  color: var(--whiteColor);
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.add-new-patient .check-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.add-new-patient .checkmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid var(--orangeDarkColor);
+}
+
+.add-new-patient .check-container:hover input ~ .checkmark {
+  background-color: var(--orangeDarkColor);
+}
+
+.add-new-patient .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.add-new-patient .check-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.add-new-patient .check-container .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--orangeDarkColor);
+}
+
+.add-new-patient .file-upload input[type=file] {
+  padding-right: 0px;
+  vertical-align: middle;
+  padding-top: 15px;
+}
+
+.add-new-patient .file-upload input[type=file]:hover::file-selector-button {
+  background-color: var(--orangeDarkColor);
+}
+
+.add-new-patient .file-upload input[type=file]::file-selector-button {
+  border-radius: 10px;
+  background-color: var(--orangeDarkColor);
+  color: var(--whiteColor);
+  height: 56px;
+  right: -11px;
+  top: 42%;
+  position: absolute;
+}
+
+.add-new-patient .btn {
+  padding: 1rem 2.5rem;
+  font-size: 1.25rem;
+}
+
+.add-new-patient .btn-solid-warning {
+  background-color: var(--orangeDarkColor);
+  color: var(--whiteColor);
+  border: 1px solid var(--orangeDarkColor);
+}
+
+.add-new-patient .btn-solid-warning:hover {
+  background-color: transparent;
+  color: var(--orangeDarkColor);
+}
+
+.add-new-patient .min-hvh-100 {
+  height: calc(100vh - 135px);
+}
+
+.settings .toggle-switch-orange {
+  padding-left: 4rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: var(--orangeDarkColor);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.settings .toggle-switch-orange .form-check-input {
+  width: 3.5em;
+  height: 1.8em;
+  background-color: rgba(245, 130, 32, 0.2);
+  float: right;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  border: none !important;
+  outline: none !important;
+}
+
+.settings .toggle-switch-orange .form-check-input:checked {
+  background-image: url("../images/orange-round.svg");
+}
+
+.settings .lh-25 {
+  line-height: 25px;
+}
+
+.settings .min-w-100 {
+  min-width: 100px;
+}
+/*# sourceMappingURL=profil-detail.css.map */

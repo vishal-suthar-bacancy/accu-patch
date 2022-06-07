@@ -19,12 +19,6 @@
           box-sizing: border-box;
 }
 
-body {
-  background: #2B2934;
-  min-height: 100vh;
-  font-size: 16px;
-}
-
 body .user-dashboard-detail .bg-light {
   background: #2B2934 !important;
 }
@@ -195,6 +189,20 @@ body .user-dashboard-detail .toggle-switch-green .form-check-input:checked {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9Jy00IC00IDggOCc+PGNpcmNsZSByPSczJyBmaWxsPScjMDBmZmFhJy8+PC9zdmc+");
 }
 
+body .user-dashboard-detail .sorting-group {
+  padding: 0rem 0.75rem;
+  border-radius: 30px;
+  background: #1F2026;
+}
+
+body .user-dashboard-detail .sorting-group button {
+  color: var(--whiteColor);
+}
+
+body .user-dashboard-detail .sorting-group button.active {
+  color: var(--orangeDarkColor);
+}
+
 body .user-dashboard-detail .btn {
   border-radius: 10px;
 }
@@ -208,12 +216,6 @@ body .user-dashboard-detail .btn-outline-warning:hover {
   background: var(--orangeDarkColor);
   border-color: var(--orangeDarkColor);
   color: var(--whiteColor);
-}
-
-body .user-dashboard-detail .sidebar {
-  width: 120px;
-  background: #1F2026;
-  min-height: 100vh;
 }
 
 body .user-dashboard-detail .main-container {

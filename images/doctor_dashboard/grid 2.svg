@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="grid_2" data-name="grid 2" transform="translate(-1784 -50)">
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="20" cy="20" r="20" transform="translate(1784 50)" fill="#2b2934"/>
+    <g id="Group_29" data-name="Group 29" transform="translate(1789 55)">
+      <g id="Layer_2" data-name="Layer 2">
+        <g id="grid">
+          <rect id="Rectangle_38" data-name="Rectangle 38" width="30" height="30" fill="#fff" opacity="0"/>
+          <path id="Path_370" data-name="Path 370" d="M8,3H4.667A1.667,1.667,0,0,0,3,4.667V8A1.667,1.667,0,0,0,4.667,9.667H8A1.667,1.667,0,0,0,9.667,8V4.667A1.667,1.667,0,0,0,8,3Zm8.333,0H13a1.667,1.667,0,0,0-1.667,1.667V8A1.667,1.667,0,0,0,13,9.667h3.333A1.667,1.667,0,0,0,18,8V4.667A1.667,1.667,0,0,0,16.333,3ZM8,11.333H4.667A1.667,1.667,0,0,0,3,13v3.333A1.667,1.667,0,0,0,4.667,18H8a1.667,1.667,0,0,0,1.667-1.667V13A1.667,1.667,0,0,0,8,11.333Zm8.333,0H13A1.667,1.667,0,0,0,11.333,13v3.333A1.667,1.667,0,0,0,13,18h3.333A1.667,1.667,0,0,0,18,16.333V13A1.667,1.667,0,0,0,16.333,11.333Z" transform="translate(4.5 4.5)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -4,17 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User Dashboard Detail</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
     <link rel="stylesheet" href="css/index.css"/>
 </head>
 <body>
     <section class="user-dashboard-detail">
-        <div class="d-flex align-items-start">
-            <div class="sidebar">
-                <header>
-
-                </header>
+        <div class="d-flex align-items-start ">
+            <div class="sidebar d-flex flex-column ">
+                <a href="#" class="sidebar-logo"><img src="./images/Bacancy_Logo.svg" alt="logo"/></a>
+                <ul class="nav nav-pills nav-flush flex-column mb-auto text-center ps-0">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link"> 
+                            <img class="noraml-img" src="./images/Dashboard.png" alt="icon" />
+                            <img class="active-img" src="./images/Active-Dashboard.png" alt="icon" />
+                            <small>Dashboard</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link"> 
+                            <img class="noraml-img" src="./images/user.png" alt="icon" />
+                            <img class="active-img" src="./images/Active-user.png" alt="icon" />
+                            <small>Patients</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link"> 
+                            <img class="noraml-img" src="./images/Rooms.png" alt="icon" />
+                            <img class="active-img" src="./images/Active-Rooms.png" alt="icon" />
+                            <small>Rooms</small>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link"> 
+                            <img class="noraml-img" src="./images/Settings.png" alt="icon" />
+                            <img class="active-img" src="./images/Active-Settings.png" alt="icon" />
+                            <small>Settings</small>
+                        </a>
+                    </li>
+                </ul>
+                <div class="notification-ic d-inline-flex justify-content-center align-items-center">
+                <a href="#" class="notification"><img src="./images/notification.png" alt="notification"/></a>
+                </div>
+                <div class="profile-ic d-inline-flex justify-content-center align-items-center">
+                    <a href="#" class="profile"><img src="./images/profile-ic.png" alt="notification"/></a>
+                </div>
+            
             </div>
             <div class="main-container">
                 <div class="p-4">
@@ -22,11 +58,11 @@
                         <div class="card-header py-3 d-flex align-items-center  bg-none border-0 text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
                                 <g id="Group_196" data-name="Group 196" transform="translate(-3796 99)">
-                                  <rect id="Rectangle_84" data-name="Rectangle 84" width="30" height="30" transform="translate(3796 -99)" fill="none"/>
-                                  <path id="Path_423" data-name="Path 423" d="M26.5,15.273H6.5m0,0,8.342,7.273M6.5,15.273,14.842,8" transform="translate(3795 -99.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                                    <rect id="Rectangle_84" data-name="Rectangle 84" width="30" height="30" transform="translate(3796 -99)" fill="none"/>
+                                    <path id="Path_423" data-name="Path 423" d="M26.5,15.273H6.5m0,0,8.342,7.273M6.5,15.273,14.842,8" transform="translate(3795 -99.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
                                 </g>
-                              </svg>
-                              <span class="ms-2">Patient Details</span>
+                                </svg>
+                                <span class="ms-2">Patient Details</span>
                         </div>
                     </div>
                     
@@ -47,27 +83,27 @@
                                         <i class="icon-rounded-33"><svg id="Group_69" data-name="Group 69" xmlns="http://www.w3.org/2000/svg" width="33.104" height="33.103" viewBox="0 0 33.104 33.103">
                                             <rect id="Rectangle_44" data-name="Rectangle 44" width="28" height="28" transform="translate(0 0)" fill="none"/>
                                             <g id="Group_67" data-name="Group 67" transform="translate(5.708 4.566)">
-                                              <path id="Path_400" data-name="Path 400" d="M-462.151-291l6.62,3.614,13.018,7.1a1.913,1.913,0,0,1,.173.1.665.665,0,0,1,.218.867.661.661,0,0,1-.86.3c-.142-.063-.276-.145-.413-.219l-.417-.228v5.039h-1.35v-.258c0-1.761,0-3.522,0-5.284a.349.349,0,0,0-.218-.357c-1.189-.64-2.374-1.29-3.56-1.936-.07-.038-.141-.072-.234-.119v5.276h-1.344v-.254q0-2.776,0-5.551c0-.118.007-.217-.133-.293-1.255-.675-2.5-1.361-3.756-2.043-.031-.017-.064-.029-.124-.056v5.527h-1.339v-.256c0-1.932,0-3.864,0-5.8a.315.315,0,0,0-.194-.324c-1.215-.656-2.425-1.319-3.637-1.98-.05-.027-.1-.049-.178-.084v5.759h-1.346v-.254q0-3.021,0-6.041a.3.3,0,0,0-.18-.311c-.39-.2-.767-.423-1.155-.625a.7.7,0,0,1-.447-.659.65.65,0,0,1,.459-.622c.011,0,.018-.021.027-.032Z" transform="translate(463.891 291)" fill="#fd5d5d"/>
-                                              <path id="Path_401" data-name="Path 401" d="M-476.32-67.178h4.563a.692.692,0,0,1,.788.794c0,.616,0,1.232,0,1.881h4.568a.688.688,0,0,1,.782.777c0,.623,0,1.246,0,1.9h4.574a.688.688,0,0,1,.777.782q0,1.672,0,3.343a.689.689,0,0,1-.781.779h-21.174a.692.692,0,0,1-.786-.8q0-5.672,0-11.345a.692.692,0,0,1,.791-.79h5.1a.692.692,0,0,1,.793.789C-476.32-68.448-476.32-67.831-476.32-67.178Z" transform="translate(483.009 79.752)" fill="#fd5d5d"/>
+                                                <path id="Path_400" data-name="Path 400" d="M-462.151-291l6.62,3.614,13.018,7.1a1.913,1.913,0,0,1,.173.1.665.665,0,0,1,.218.867.661.661,0,0,1-.86.3c-.142-.063-.276-.145-.413-.219l-.417-.228v5.039h-1.35v-.258c0-1.761,0-3.522,0-5.284a.349.349,0,0,0-.218-.357c-1.189-.64-2.374-1.29-3.56-1.936-.07-.038-.141-.072-.234-.119v5.276h-1.344v-.254q0-2.776,0-5.551c0-.118.007-.217-.133-.293-1.255-.675-2.5-1.361-3.756-2.043-.031-.017-.064-.029-.124-.056v5.527h-1.339v-.256c0-1.932,0-3.864,0-5.8a.315.315,0,0,0-.194-.324c-1.215-.656-2.425-1.319-3.637-1.98-.05-.027-.1-.049-.178-.084v5.759h-1.346v-.254q0-3.021,0-6.041a.3.3,0,0,0-.18-.311c-.39-.2-.767-.423-1.155-.625a.7.7,0,0,1-.447-.659.65.65,0,0,1,.459-.622c.011,0,.018-.021.027-.032Z" transform="translate(463.891 291)" fill="#fd5d5d"/>
+                                                <path id="Path_401" data-name="Path 401" d="M-476.32-67.178h4.563a.692.692,0,0,1,.788.794c0,.616,0,1.232,0,1.881h4.568a.688.688,0,0,1,.782.777c0,.623,0,1.246,0,1.9h4.574a.688.688,0,0,1,.777.782q0,1.672,0,3.343a.689.689,0,0,1-.781.779h-21.174a.692.692,0,0,1-.786-.8q0-5.672,0-11.345a.692.692,0,0,1,.791-.79h5.1a.692.692,0,0,1,.793.789C-476.32-68.448-476.32-67.831-476.32-67.178Z" transform="translate(483.009 79.752)" fill="#fd5d5d"/>
                                             </g>
-                                          </svg></i>
-                                          <span class="text-white ms-2">Floor - 2</span>
+                                            </svg></i>
+                                            <span class="text-white ms-2">Floor - 2</span>
                                         
-                                          
+                                            
                                     </li>
                                     <li class="nav-item d-flex align-items-center me-4">
                                         <i class="icon-rounded-33">
                                             <svg id="Group_70" data-name="Group 70" xmlns="http://www.w3.org/2000/svg" width="33.104" height="33.103" viewBox="0 0 33.104 33.103">
-                                              <rect id="Rectangle_63" data-name="Rectangle 63" width="33.103" height="33.103" transform="translate(0)" fill="none"/>
-                                              <g id="Group_68" data-name="Group 68" transform="translate(5.708 6.849)">
+                                                <rect id="Rectangle_63" data-name="Rectangle 63" width="33.103" height="33.103" transform="translate(0)" fill="none"/>
+                                                <g id="Group_68" data-name="Group 68" transform="translate(5.708 6.849)">
                                                 <g id="Group_66" data-name="Group 66" transform="translate(0)">
-                                                  <path id="Path_395" data-name="Path 395" d="M2451.247,495.939a1.333,1.333,0,0,1,1.488-.985.484.484,0,0,1,.334.138v8.293c-.2.256-.482.133-.725.136-1.107.014-1.107.006-1.107-1.095q0-1.322,0-2.645,0-1.434-.006-2.868Q2451.241,496.426,2451.247,495.939Z" transform="translate(-2430.239 -486.385)" fill="#53f8ff"/>
-                                                  <path id="Path_396" data-name="Path 396" d="M2148.755,527.833l.006,2.868q-5.238,0-10.476-.006-4.347,0-8.693.006,0-1.429,0-2.859l4.269,0,1.84,0c.059,0,.118.009.178.009H2148.4C2148.519,527.851,2148.637,527.839,2148.755,527.833Z" transform="translate(-2127.761 -517.306)" fill="#53f8ff"/>
-                                                  <path id="Path_397" data-name="Path 397" d="M2100.725,361.695q0,1.429,0,2.859c0,1.144,0,2.289,0,3.433,0,.232-.1.319-.321.315q-.6-.012-1.2,0c-.219,0-.31-.092-.31-.307q0-8.259,0-16.519c0-.227.1-.314.323-.317,1.041-.011,1.509.45,1.511,1.5,0,.379,0,.758.008,1.137v4.994Q2100.732,360.241,2100.725,361.695Z" transform="translate(-2098.896 -351.159)" fill="#53f8ff"/>
-                                                  <path id="Path_398" data-name="Path 398" d="M2129.6,373.83v-.282a1.388,1.388,0,0,1,1.358-1.192,1.42,1.42,0,0,1,1.265,1.206c.176.68.35,1.361.554,2.033a1.423,1.423,0,0,1-.81,1.841c.856,0,1.675,0,2.495,0,.091,0,.2-.038.264.066a1.275,1.275,0,0,0-.863,1.329c.015.874,0,1.748-.007,2.622l-4.269,0q.007-1.454.013-2.908c.146-.85.742-1.109,1.625-1.112a1.35,1.35,0,0,1-.921-.946C2130.076,375.6,2129.838,374.715,2129.6,373.83Z" transform="translate(-2127.761 -371.093)" fill="#53f8ff"/>
-                                                  <path id="Path_399" data-name="Path 399" d="M2218.142,460.043c0-1.066-.584-1.518-1.82-1.411l-7.878,0q-1.884,0-3.77-.005l-.161.028-.12.03a1.276,1.276,0,0,0-.854,1.329c.015.874,0,1.748-.007,2.622l1.684,0v0c.059,0,.117.009.176.009h12.392c.117,0,.234-.012.351-.018q.007-.487.014-.974C2218.146,461.112,2218.142,460.577,2218.142,460.043Z" transform="translate(-2197.297 -452.213)" fill="#53f8ff"/>
+                                                    <path id="Path_395" data-name="Path 395" d="M2451.247,495.939a1.333,1.333,0,0,1,1.488-.985.484.484,0,0,1,.334.138v8.293c-.2.256-.482.133-.725.136-1.107.014-1.107.006-1.107-1.095q0-1.322,0-2.645,0-1.434-.006-2.868Q2451.241,496.426,2451.247,495.939Z" transform="translate(-2430.239 -486.385)" fill="#53f8ff"/>
+                                                    <path id="Path_396" data-name="Path 396" d="M2148.755,527.833l.006,2.868q-5.238,0-10.476-.006-4.347,0-8.693.006,0-1.429,0-2.859l4.269,0,1.84,0c.059,0,.118.009.178.009H2148.4C2148.519,527.851,2148.637,527.839,2148.755,527.833Z" transform="translate(-2127.761 -517.306)" fill="#53f8ff"/>
+                                                    <path id="Path_397" data-name="Path 397" d="M2100.725,361.695q0,1.429,0,2.859c0,1.144,0,2.289,0,3.433,0,.232-.1.319-.321.315q-.6-.012-1.2,0c-.219,0-.31-.092-.31-.307q0-8.259,0-16.519c0-.227.1-.314.323-.317,1.041-.011,1.509.45,1.511,1.5,0,.379,0,.758.008,1.137v4.994Q2100.732,360.241,2100.725,361.695Z" transform="translate(-2098.896 -351.159)" fill="#53f8ff"/>
+                                                    <path id="Path_398" data-name="Path 398" d="M2129.6,373.83v-.282a1.388,1.388,0,0,1,1.358-1.192,1.42,1.42,0,0,1,1.265,1.206c.176.68.35,1.361.554,2.033a1.423,1.423,0,0,1-.81,1.841c.856,0,1.675,0,2.495,0,.091,0,.2-.038.264.066a1.275,1.275,0,0,0-.863,1.329c.015.874,0,1.748-.007,2.622l-4.269,0q.007-1.454.013-2.908c.146-.85.742-1.109,1.625-1.112a1.35,1.35,0,0,1-.921-.946C2130.076,375.6,2129.838,374.715,2129.6,373.83Z" transform="translate(-2127.761 -371.093)" fill="#53f8ff"/>
+                                                    <path id="Path_399" data-name="Path 399" d="M2218.142,460.043c0-1.066-.584-1.518-1.82-1.411l-7.878,0q-1.884,0-3.77-.005l-.161.028-.12.03a1.276,1.276,0,0,0-.854,1.329c.015.874,0,1.748-.007,2.622l1.684,0v0c.059,0,.117.009.176.009h12.392c.117,0,.234-.012.351-.018q.007-.487.014-.974C2218.146,461.112,2218.142,460.577,2218.142,460.043Z" transform="translate(-2197.297 -452.213)" fill="#53f8ff"/>
                                                 </g>
-                                              </g>
+                                                </g>
                                             </svg>
                                         </i>
                                         <span class="text-white ms-2">Room - 205</span>
@@ -85,42 +121,42 @@
                                         <span class="text-white ms-2">114Hrs 45 Min</span>
                                     </li>
                                     
-                                  </ul>
+                                    </ul>
 
-                                  <div class="form-check form-switch toggle-switch-green">
+                                    <div class="form-check form-switch toggle-switch-green">
                                     <label class="form-check-label" for="flexSwitchCheckDefault">Device Status</label>
                                     <input class="form-check-input" type="checkbox" checked id="flexSwitchCheckDefault">
-                                  </div>
+                                    </div>
                             </div>
-                           
+                            
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-6 my-2">
+                                <div class="col-md-6 my-3">
                                     <div class="card bg-dark border-0">
                                         <div class="card-header bg-dark border-0 d-flex justify-content-between align-items-center">
                                             <h3 class="h4 text-white">ECG</h3>
                                             <a href="" class="btn btn-outline-warning">Export</a>
                                         </div>
-                                        <div class="card-body">
-                                            <img src="images/weaveChart.JPG" class="img-fluid"/>
+                                        <div class="card-body p-0">
+                                            <img src="images/ECG.png" class="img-fluid w-100"/>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 my-2">
+                                <div class="col-md-6 my-3">
                                     <div class="card bg-dark border-0">
                                         <div class="card-header bg-dark border-0 d-flex justify-content-between align-items-center">
                                             <h3 class="h4 text-white">PPG</h3>
                                             <a href="" class="btn btn-outline-warning">Export</a>
                                         </div>
-                                        <div class="card-body">
-                                            <img src="images/weaveChart.JPG" class="img-fluid w-100"/>
+                                        <div class="card-body p-0">
+                                            <img src="images/PPG.png" class="img-fluid w-100"/>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md my-2">
+                                <div class="col-lg my-3">
                                     <div class="card bg-light border-0 rounded-5">
                                         <div class="card-body">
                                             <div class="d-flex">
@@ -135,7 +171,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md my-2">
+                                <div class="col-lg my-3">
                                     <div class="card bg-light border-0 rounded-5">
                                         <div class="card-body">
                                             <div class="d-flex">
@@ -150,7 +186,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md my-2">
+                                <div class="col-lg my-3">
                                     <div class="card bg-light border-0 rounded-5">
                                         <div class="card-body">
                                             <div class="d-flex">
@@ -165,7 +201,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md my-2">
+                                <div class="col-lg my-3">
                                     <div class="card bg-light border-0 rounded-5">
                                         <div class="card-body">
                                             <div class="d-flex">
@@ -180,7 +216,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md my-2">
+                                <div class="col-md my-3">
                                     <div class="card bg-light border-0 rounded-5">
                                         <div class="card-body">
                                             <div class="d-flex">
@@ -204,8 +240,8 @@
                                             <div class=" text-white d-flex  d-flex flex-column justify-content-center">
                                                 <h3 class="h6 d-block mb-1">Oxygen Saturation</h3>
                                                 <span class="h6 text-small mb-0 text-warning fw-light">00:0B:57:AC:66:DA</span>
-                                             </div>
-                                              <div class=" text-white d-flex text-end flex-column justify-content-center">
+                                                </div>
+                                                <div class=" text-white d-flex text-end flex-column justify-content-center">
                                                 <span class="h6 d-block mb-1">Last Reading</span>
                                                 <span class="h6 text-small mb-0 text-muted  fw-light">2 hour ago</span>
                                             </div>
@@ -219,7 +255,7 @@
                                                     <h3 class="heading-count text-StreamingMode d-block mb-1">98</h3>
                                                     <p class="h6 fw-normal text-white mb-0">Streaming Mode</p>
                                                     <span class=" text-small mb-0 text-muted fw-light">%SPO2</span>
-                                                 </div>
+                                                    </div>
                                             </div>
                                         </div>
                                     </div>
@@ -230,8 +266,8 @@
                                             <div class=" text-white d-flex  d-flex flex-column justify-content-center">
                                                 <h3 class="h6 d-block mb-1">Blood Pressure</h3>
                                                 <span class="h6 text-small mb-0 text-warning fw-light">No Device Paired</span>
-                                             </div>
-                                              <div class=" text-white d-flex text-end flex-column justify-content-center">
+                                                </div>
+                                                <div class=" text-white d-flex text-end flex-column justify-content-center">
                                                 <span class="h6 d-block mb-1">Last Reading</span>
                                                 <span class="h6 text-small mb-0 text-muted  fw-light">2 hour ago</span>
                                             </div>
@@ -245,7 +281,7 @@
                                                     <h3 class="heading-count text-BloodPressure d-block mb-1">118/77</h3>
                                                     <p class="h6 fw-normal text-white mb-0">Manual Entry</p>
                                                     <span class=" text-small mb-0 text-muted fw-light">mmHg</span>
-                                                 </div>
+                                                    </div>
                                             </div>
                                         </div>
                                     </div>
@@ -256,8 +292,8 @@
                                             <div class=" text-white d-flex  d-flex flex-column justify-content-center">
                                                 <h3 class="h6 d-block mb-1">Weight</h3>
                                                 <span class="h6 text-small mb-0 text-weight fw-light">No Device Paired</span>
-                                             </div>
-                                              <div class=" text-white d-flex text-end flex-column justify-content-center">
+                                                </div>
+                                                <div class=" text-white d-flex text-end flex-column justify-content-center">
                                                 <span class="h6 d-block mb-1">Last Reading</span>
                                                 <span class="h6 text-small mb-0 text-muted  fw-light">2 hour ago</span>
                                             </div>
@@ -271,12 +307,12 @@
                                                     <h3 class="heading-count text-weight d-block mb-1">61.3 kg</h3>
                                                     <p class="h6 fw-normal text-white mb-0">Manual Entry</p>
                                                     <span class=" text-small mb-0 text-muted fw-light">%SPO2</span>
-                                                 </div>
+                                                    </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 my-2">
+                                <div class="col-md-6 my-3">
                                     <div class="card bg-light border-0">
                                         <div class="card-header bg-light border-0 d-flex justify-content-between align-items-center mt-2">
                                             <h3 class="h4 text-white d-flex">
@@ -285,7 +321,7 @@
                                                     <span class="h6 d-block mb-1">Body Temperature</span>
                                                     <span class="h6 text-small mb-0 text-warning fw-light">00:0B:57:AC:66:DA</span>
                                                 </div>
-                                              </h3>
+                                                </h3>
                                             <a href="" class="btn btn-outline-warning">Export</a>
                                         </div>
                                         <div class="card-body">
@@ -293,7 +329,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 my-2">
+                                <div class="col-md-6 my-3">
                                     <div class="card bg-light border-0">
                                         <div class="card-header bg-light border-0 d-flex justify-content-between align-items-center mt-2">
                                             <h3 class="h4 text-white d-flex">
@@ -302,7 +338,7 @@
                                                     <span class="h6 d-block mb-1">Blood Oxygen</span>
                                                     <span class="h6 text-small mb-0 text-warning fw-light">mmHg</span>
                                                 </div>
-                                              </h3>
+                                                </h3>
                                             <a href="" class="btn btn-outline-warning">Export</a>
                                         </div>
                                         <div class="card-body">
@@ -310,7 +346,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 my-2">
+                                <div class="col-md-6 my-3">
                                     <div class="card bg-light border-0">
                                         <div class="card-header bg-light border-0 d-flex justify-content-between align-items-center mt-2">
                                             <h3 class="h4 text-white d-flex">
@@ -319,7 +355,7 @@
                                                     <span class="h6 d-block mb-1">Heart Rate</span>
                                                     <span class="h6 text-small mb-0 text-warning fw-light">mmHg</span>
                                                 </div>
-                                              </h3>
+                                                </h3>
                                             <a href="" class="btn btn-outline-warning">Export</a>
                                         </div>
                                         <div class="card-body">
@@ -327,7 +363,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6 my-2">
+                                <div class="col-md-6 my-3">
                                     <div class="card bg-light border-0">
                                         <div class="card-header bg-light border-0 d-flex justify-content-between align-items-center mt-2">
                                             <h3 class="h4 text-white d-flex">
@@ -336,8 +372,15 @@
                                                     <span class="h6 d-block mb-1">Sleep</span>
                                                     <span class="h6 text-small mb-0 text-warning fw-light">Hrs/Day</span>
                                                 </div>
-                                              </h3>
-                                            <a href="" class="btn btn-outline-warning">Export</a>
+                                                </h3>
+                                                <div class="">
+                                                    <div class="btn-group sorting-group me-2" role="group" aria-label="Basic example">
+                                                        <button type="button" class="btn btn-none active">W</button>
+                                                        <button type="button" class="btn btn-none">M</button>
+                                                        <button type="button" class="btn btn-none">6M</button>
+                                                    </div>
+                                                    <a href="" class="btn btn-outline-warning">Export</a>
+                                                </div>
                                         </div>
                                         <div class="card-body">
                                             <div id="chart2"></div>
@@ -347,16 +390,13 @@
                             </div>
                         </div>
                     </div>
-                   
+                    
                 </div>
             </div>
         </div>
     </section>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
     <script src="js/apexChart.js"></script>
     <script src="js/main.js"></script>
-
-   
 </body>
 </html>
