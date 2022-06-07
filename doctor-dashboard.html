@@ -14,37 +14,37 @@
 <body>
   <div class="d-flex align-items-start">
     <div class="sidebar d-flex flex-column ">
-        <a href="#" class="sidebar-logo"><img src="./images/Bacancy_Logo.svg" alt="logo"/></a>
+        <a href="#" class="sidebar-logo"><img src="./images/logo.svg" alt="logo"/></a>
         <ul class="nav nav-pills nav-flush flex-column mb-auto text-center ps-0">
-            <li class="nav-item active">
-                <a href="#" class="nav-link"> 
-                    <img class="noraml-img" src="./images/Dashboard.png" alt="icon" />
-                    <img class="active-img" src="./images/Active-Dashboard.png" alt="icon" />
-                    <small>Dashboard</small>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link"> 
-                    <img class="noraml-img" src="./images/user.png" alt="icon" />
-                    <img class="active-img" src="./images/Active-user.png" alt="icon" />
-                    <small>Patients</small>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link"> 
-                    <img class="noraml-img" src="./images/Rooms.png" alt="icon" />
-                    <img class="active-img" src="./images/Active-Rooms.png" alt="icon" />
-                    <small>Rooms</small>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link"> 
-                    <img class="noraml-img" src="./images/Settings.png" alt="icon" />
-                    <img class="active-img" src="./images/Active-Settings.png" alt="icon" />
-                    <small>Settings</small>
-                </a>
-            </li>
-        </ul>
+          <li class="nav-item active">
+              <a href="/doctor-dashboard.html" class="nav-link">  
+                  <img class="noraml-img" src="./images/Dashboard.png" alt="icon" />
+                  <img class="active-img" src="./images/Active-Dashboard.png" alt="icon" />
+                  <small>Dashboard</small>
+              </a>
+          </li>
+          <li>
+              <a href="/user-list.html" class="nav-link"> 
+                  <img class="noraml-img" src="./images/user.png" alt="icon" />
+                  <img class="active-img" src="./images/Active-user.png" alt="icon" />
+                  <small>Patients</small>
+              </a>
+          </li>
+          <li>
+              <a href="/room-list.html" class="nav-link"> 
+                  <img class="noraml-img" src="./images/Rooms.png" alt="icon" />
+                  <img class="active-img" src="./images/Active-Rooms.png" alt="icon" />
+                  <small>Rooms</small>
+              </a>
+          </li>
+          <li>
+              <a href="/settings.html" class="nav-link"> 
+                  <img class="noraml-img" src="./images/Settings.png" alt="icon" />
+                  <img class="active-img" src="./images/Active-Settings.png" alt="icon" />
+                  <small>Settings</small>
+              </a>
+          </li>
+      </ul>
         <div class="notification-ic d-inline-flex justify-content-center align-items-center">
         <a href="#" class="notification"><img src="./images/notification.png" alt="notification"/></a>
         </div>
@@ -90,6 +90,142 @@
                 </div>
               </div>
               </div>
+              <a href="/index.html" class="col-xl-3 col-lg-4 text-white text-decoration-none col-md-6 col-sm-12 mb-3">
+                <div class="bg-dark-gray p-3 br-15 doctor-card">
+                  <div class="d-flex justify-content-between">
+                    <div class="d-flex align-items-center">
+                      <img class="img-fluid me-2" src="images/doctor_dashboard/profile-user.png" alt="profile pic"
+                        srcset="">
+                      <h5 class="doc-name mb-0">Eddie Downy</h5>
+                    </div>
+                    <div>
+                      <img src="images/doctor_dashboard/green-dot.svg" alt="" srcset="">
+                    </div>
+                  </div>
+                  <div class="row my-3">
+                    <div class="col-6 p-md-1 mb-2">
+                      <div class="d-flex">
+                        <div class="icon me-2">
+                          <img src="images/doctor_dashboard/doc-floor.svg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="detail text-orange">
+                          Floor - 1
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 p-md-1 mb-2">
+                      <div class="d-flex">
+                        <div class="icon me-2">
+                          <img src="images/doctor_dashboard/doc-bad.svg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="detail text-orange">
+                          Room - 101
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 p-md-1 mb-2">
+                      <div class="d-flex">
+                        <div class="icon me-2">
+                          <img src="images/doctor_dashboard/doc-fan.svg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="detail">
+                          0073fa
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 p-md-1 mb-2">
+                      <div class="d-flex">
+                        <div class="icon me-2">
+                          <img src="images/doctor_dashboard/doc-battery.svg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="detail">
+                          114Hrs 45 Min
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6 p-md-1 mb-2">
+                      <div class="d-flex br-10 border-gray p-2 shadow h-100">
+                        <div class="icon-squre me-2 bg-green">
+                          <img src="images/doctor_dashboard/heartbeat.svg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="d-flex flex-column">
+                          <h5 class="detail mb-0 text-green">
+                            74
+                          </h5>
+                          <small class="text-gray">&gt;120 &lt;30 C1</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 p-md-1 mb-2">
+                      <div class="d-flex br-10 border-gray p-2 shadow h-100">
+                        <div class="icon-squre me-2 bg-yellow">
+                          <img src="images/doctor_dashboard/doc-oxi.svg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="d-flex flex-column">
+                          <h5 class="detail mb-0 text-yellow">
+                            98
+                          </h5>
+                          <small class="text-gray">Good</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 p-md-1 mb-2">
+                      <div class="d-flex br-10 border-gray p-2 shadow h-100">
+                        <div class="icon-squre me-2 bg-purple">
+                          <img src="images/doctor_dashboard/doc-lunghs.svg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="d-flex flex-column">
+                          <h5 class="detail mb-0 text-purple">
+                            16
+                          </h5>
+                          <small class="text-gray">C1</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 p-md-1 mb-2">
+                      <div class="d-flex br-10 border-gray p-2 shadow h-100">
+                        <div class="icon-squre me-2 bg-cyne">
+                          <img src="images/doctor_dashboard/oxi-meter.svg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="d-flex flex-column">
+                          <h5 class="detail mb-0 text-cyne">
+                            120/85
+                          </h5>
+                          <small class="text-gray">6 hours ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 p-md-1">
+                      <div class="d-flex br-10 border-gray p-2 shadow h-100">
+                        <div class="icon-squre me-2 bg-red">
+                          <img src="images/doctor_dashboard/temprature.svg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="d-flex flex-column">
+                          <h5 class="detail mb-0 text-red">
+                            98.7<sup>F</sup>
+                          </h5>
+                          <small class="text-gray">&gt;120 &lt;30 C1</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 p-md-1">
+                      <div class="d-flex br-10 border-gray p-2 shadow h-100">
+                        <div class="icon-squre me-2 bg-pink">
+                          <img src="images/doctor_dashboard/doc-step.svg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="d-flex flex-column">
+                          <h5 class="detail mb-0 text-pink">
+                            10000
+                          </h5>
+                          <small class="text-gray">Steps</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-3">
                 <div class="bg-dark-gray p-3 br-15 doctor-card" data-bs-toggle="modal" data-bs-target="#popup">
                   <div class="d-flex justify-content-between">
@@ -226,142 +362,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-3">
-                <div class="bg-dark-gray p-3 br-15 doctor-card">
-                  <div class="d-flex justify-content-between">
-                    <div class="d-flex align-items-center">
-                      <img class="img-fluid me-2" src="images/doctor_dashboard/profile-user.png" alt="profile pic"
-                        srcset="">
-                      <h5 class="doc-name mb-0">Eddie Downy</h5>
-                    </div>
-                    <div>
-                      <img src="images/doctor_dashboard/green-dot.svg" alt="" srcset="">
-                    </div>
-                  </div>
-                  <div class="row my-3">
-                    <div class="col-6 p-md-1 mb-2">
-                      <div class="d-flex">
-                        <div class="icon me-2">
-                          <img src="images/doctor_dashboard/doc-floor.svg" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <div class="detail text-orange">
-                          Floor - 1
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 p-md-1 mb-2">
-                      <div class="d-flex">
-                        <div class="icon me-2">
-                          <img src="images/doctor_dashboard/doc-bad.svg" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <div class="detail text-orange">
-                          Room - 101
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 p-md-1 mb-2">
-                      <div class="d-flex">
-                        <div class="icon me-2">
-                          <img src="images/doctor_dashboard/doc-fan.svg" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <div class="detail">
-                          0073fa
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 p-md-1 mb-2">
-                      <div class="d-flex">
-                        <div class="icon me-2">
-                          <img src="images/doctor_dashboard/doc-battery.svg" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <div class="detail">
-                          114Hrs 45 Min
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-6 p-md-1 mb-2">
-                      <div class="d-flex br-10 border-gray p-2 shadow h-100">
-                        <div class="icon-squre me-2 bg-green">
-                          <img src="images/doctor_dashboard/heartbeat.svg" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <div class="d-flex flex-column">
-                          <h5 class="detail mb-0 text-green">
-                            74
-                          </h5>
-                          <small class="text-gray">&gt;120 &lt;30 C1</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 p-md-1 mb-2">
-                      <div class="d-flex br-10 border-gray p-2 shadow h-100">
-                        <div class="icon-squre me-2 bg-yellow">
-                          <img src="images/doctor_dashboard/doc-oxi.svg" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <div class="d-flex flex-column">
-                          <h5 class="detail mb-0 text-yellow">
-                            98
-                          </h5>
-                          <small class="text-gray">Good</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 p-md-1 mb-2">
-                      <div class="d-flex br-10 border-gray p-2 shadow h-100">
-                        <div class="icon-squre me-2 bg-purple">
-                          <img src="images/doctor_dashboard/doc-lunghs.svg" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <div class="d-flex flex-column">
-                          <h5 class="detail mb-0 text-purple">
-                            16
-                          </h5>
-                          <small class="text-gray">C1</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 p-md-1 mb-2">
-                      <div class="d-flex br-10 border-gray p-2 shadow h-100">
-                        <div class="icon-squre me-2 bg-cyne">
-                          <img src="images/doctor_dashboard/oxi-meter.svg" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <div class="d-flex flex-column">
-                          <h5 class="detail mb-0 text-cyne">
-                            120/85
-                          </h5>
-                          <small class="text-gray">6 hours ago</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 p-md-1">
-                      <div class="d-flex br-10 border-gray p-2 shadow h-100">
-                        <div class="icon-squre me-2 bg-red">
-                          <img src="images/doctor_dashboard/temprature.svg" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <div class="d-flex flex-column">
-                          <h5 class="detail mb-0 text-red">
-                            98.7<sup>F</sup>
-                          </h5>
-                          <small class="text-gray">&gt;120 &lt;30 C1</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 p-md-1">
-                      <div class="d-flex br-10 border-gray p-2 shadow h-100">
-                        <div class="icon-squre me-2 bg-pink">
-                          <img src="images/doctor_dashboard/doc-step.svg" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <div class="d-flex flex-column">
-                          <h5 class="detail mb-0 text-pink">
-                            10000
-                          </h5>
-                          <small class="text-gray">Steps</small>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+             
               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-3">
                 <div class="bg-dark-gray p-3 br-15 doctor-card">
                   <div class="d-flex justify-content-between">

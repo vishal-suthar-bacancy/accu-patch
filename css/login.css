@@ -1,4 +1,13 @@
 @font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../fonts/Gilroy-Light.ttf') format('truetype'),
+         url('../fonts/Gilroy-Light.woff') format('woff'),
+         url('../fonts/Gilroy-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
     font-family: 'Gilroy-Regular';
     src: url('/fonts/') format('truetype'),
         url('/fonts/Gilroy-Regular.woff') format('woff'),
@@ -60,8 +69,17 @@
     background-size: cover;
     width: 363px;
     height: 246px;
+    
 }
 
+@media all and (min-width:1440px){
+    .login-page::before {
+        width: 200px;
+        height: 150px;
+        background-position: 0px 9px;
+        background-repeat: no-repeat;
+    }
+}
 .login-page .left-part {
     flex: 1;
     padding: 0;
@@ -204,7 +222,7 @@
 }
 
 .right-part .login-box {
-    background: transparent url('img/Rectangle 9.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images/login-box.png') 0% 0% no-repeat padding-box;
     box-shadow: inset 0px 3px 99px #020203;
     border: 1px solid #464646;
     border-radius: 50px;
@@ -217,7 +235,10 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-between;
+    background-position: center;
+    background-size: 100% 100%;
 }
+    
 
 .right-part .login-box .middle-sec .user-ic,
 .right-part .login-box .middle-sec .pw-ic{
@@ -369,6 +390,10 @@
     font-size: 18px;
     font-family: 'Gilroy-Bold';
     margin-bottom: 36px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .right-part .login-box .regist-btn p {
