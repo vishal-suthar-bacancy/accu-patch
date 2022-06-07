@@ -10,6 +10,10 @@
     --bodyTempeture : #fd5d5d;
     --Posture:#ffa0a0;
     --Steps:#f900bf;
+    --darkColor: #1F2026;
+    --muteTextColor: #1F2026;
+    --heartRateVariability:#C8FD5D;
+    --FALLDETECTION:#5B97FF;
 }
 *{
     margin: 0;
@@ -17,14 +21,228 @@
     box-sizing: border-box;
 }
 body{
-   background: #2B2934;
-   min-height: 100vh;
-    .sidebar{
-        width: 120px;
-        background: #1F2026;
-        min-height: 100vh;
-    }   
-    .main-container{
-        width:calc(100% - 120px);
+    .mobile-header{
+        .brand-logo{
+            position: relative;
+            padding: 20px;
+            display: inline-block;
+            &::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 118px;
+                height: 116px;
+                background: var(--darkColor);
+                border-radius: 37px 0px 103px 0px;
+            }
+            img{
+                position: relative;
+                z-index: 1;
+            }
+        }
+    }
+    .user-dashboard-detail{
+      
+        .bg{
+            &-light{
+                background: #2B2934 !important;
+            }
+            &-dark{
+                background: #1f2026 !important;
+            }
+        }
+        .text{
+            &-FALLDETECTION{
+                color: var(--FALLDETECTION);
+            }
+            &-bodyTempeture{
+                color: var(--bodyTempeture) ;
+            }
+            &-Posture{
+                color: var(--Posture) ;
+            }
+            &-Steps{
+                color: var(--Steps) ;
+            }
+            &-warning{
+                color: var(--orangeDarkColor) !important;
+            }
+            &-small{
+                font-size: 0.875rem;
+                &-2{
+                    font-size: 0.625rem;
+                }
+            }
+            &-heartRate{
+            
+                color: var(--heartRate);
+            }
+            &-bloodoxygen{
+                color: var(--bloodoxygen);
+            }
+            &-StreamingMode{
+                color: var(--StreamingMode);
+            }
+            &-BloodPressure{
+                color: var(--BloodPressure);
+            }
+            &-weight{
+                color: var(--weight);
+            }
+            &-heartRateVariability{
+                color: var(--heartRateVariability);
+            }
+            &-heading{
+                &-mobile{
+                    @media all and (max-width:575px){
+                        font-size: 1rem;
+                        font-weight: 400;
+                    }
+                }
+            }
+            
+        }
+        .rounded{
+            &-5{
+                border-radius: 0.313rem !important;
+            }
+            &-10{
+                border-radius: 0.625rem !important;
+            }
+        }
+        .heading{
+            &-count{
+                font-size: 2.5rem;
+                line-height: 2.5rem;
+               
+            }
+        }
+        .opacity{
+            &-70{
+                opacity: 0.7;
+            }
+        }
+        .icon{
+            &-rounded{
+                &-24{
+                    background: #2B2934;
+                    border-radius: 0.25rem;
+                    min-width: 1.5rem;
+                    min-height: 1.5rem;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0.25rem;
+                }
+                &-33{
+                    background: #2B2934;
+                    border-radius: 2.063rem;
+                    min-width: 2.063rem;
+                    min-height: 2.063rem;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0.25rem;
+                }
+                &-50{
+                    width: 3.125rem;
+                    height: 3.125rem;
+                    border-radius: 0.625rem;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                &-94{
+                    width: 5.875rem;
+                    height: 5.875rem;
+                    border-radius: 0.625rem;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            
+            }
+            &-bloodoxygen{
+                background: rgba(118, 74, 241, 0.2);
+            }
+            &-light-skyblue{
+                background: rgba(83, 248, 255, 0.2) ;
+            }
+            &-bodyTempeture{
+                background: rgba(255, 160, 160, 0.2) ;
+            }
+            &-heartRate{
+                background: rgba(0, 255, 172, 0.2) ;
+            }
+            &-OxygenSaturation{
+                background: rgba(248, 215, 22, 0.2) ;
+            }
+            &-BloodPressure{
+                background: rgba(83, 248, 255, 0.2);
+            }
+            &-weight{
+                background: rgba(252, 92, 92, 0.2);
+            }
+            &-Posture{
+                background: rgba(255, 160, 160, 0.2);
+            }
+            &-Steps{
+                background: rgba(249, 0, 191, 0.2) ;
+            }
+            
+            
+        }
+        .toggle-switch{
+            &-green{
+                padding-left: 4rem;
+                display: inline-flex;
+                color: var(--greenDarkColor);
+                align-items: center;
+                .form-check-input{
+                    width: 3.5em;
+                    height: 1.8em;
+                    background-color: rgba(0, 255, 170, 0.2);
+                    float: right;
+                    margin-right: 0.5rem;
+                    margin-left: 0.5rem;
+                    border: none !important;
+                    outline: none !important;
+                    &:checked {
+                        background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9Jy00IC00IDggOCc+PGNpcmNsZSByPSczJyBmaWxsPScjMDBmZmFhJy8+PC9zdmc+");
+                    }
+                }
+            }
+        }
+        .sorting-group{
+            padding: 0rem 0.75rem;
+            border-radius: 1.875rem;
+            background: #1F2026;
+            button{
+                color: var(--whiteColor);
+                &.active{
+                    color: var(--orangeDarkColor);
+                }
+            }
+        }
+        .btn{
+            border-radius: 0.625rem;
+            @media all and (max-width:575px){
+                border-radius: 0.325rem;
+            }
+            &-outline{
+                &-warning{
+                    color:  var(--orangeDarkColor);
+                    border-color: var(--orangeDarkColor);
+                    &:hover{
+                        background: var(--orangeDarkColor);
+                        border-color: var(--orangeDarkColor);
+                        color:var(--whiteColor);
+                    }
+                }
+            }
+        }
+       
+     
     }
 }

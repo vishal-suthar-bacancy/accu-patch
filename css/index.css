@@ -10,6 +10,10 @@
   --bodyTempeture: #fd5d5d;
   --Posture:#ffa0a0;
   --Steps:#f900bf;
+  --darkColor: #1F2026;
+  --muteTextColor: #1F2026;
+  --heartRateVariability:#C8FD5D;
+  --FALLDETECTION:#5B97FF;
 }
 
 * {
@@ -19,12 +23,38 @@
           box-sizing: border-box;
 }
 
+body .mobile-header .brand-logo {
+  position: relative;
+  padding: 20px;
+  display: inline-block;
+}
+
+body .mobile-header .brand-logo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 118px;
+  height: 116px;
+  background: var(--darkColor);
+  border-radius: 37px 0px 103px 0px;
+}
+
+body .mobile-header .brand-logo img {
+  position: relative;
+  z-index: 1;
+}
+
 body .user-dashboard-detail .bg-light {
   background: #2B2934 !important;
 }
 
 body .user-dashboard-detail .bg-dark {
   background: #1f2026 !important;
+}
+
+body .user-dashboard-detail .text-FALLDETECTION {
+  color: var(--FALLDETECTION);
 }
 
 body .user-dashboard-detail .text-bodyTempeture {
@@ -44,7 +74,11 @@ body .user-dashboard-detail .text-warning {
 }
 
 body .user-dashboard-detail .text-small {
-  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+body .user-dashboard-detail .text-small-2 {
+  font-size: 0.625rem;
 }
 
 body .user-dashboard-detail .text-heartRate {
@@ -67,24 +101,39 @@ body .user-dashboard-detail .text-weight {
   color: var(--weight);
 }
 
+body .user-dashboard-detail .text-heartRateVariability {
+  color: var(--heartRateVariability);
+}
+
+@media all and (max-width: 575px) {
+  body .user-dashboard-detail .text-heading-mobile {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
 body .user-dashboard-detail .rounded-5 {
-  border-radius: 5px !important;
+  border-radius: 0.313rem !important;
 }
 
 body .user-dashboard-detail .rounded-10 {
-  border-radius: 10px !important;
+  border-radius: 0.625rem !important;
 }
 
 body .user-dashboard-detail .heading-count {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
 }
 
-body .user-dashboard-detail .icon-rounded-33 {
+body .user-dashboard-detail .opacity-70 {
+  opacity: 0.7;
+}
+
+body .user-dashboard-detail .icon-rounded-24 {
   background: #2B2934;
-  border-radius: 33px;
-  min-width: 33px;
-  min-height: 33px;
+  border-radius: 0.25rem;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -94,13 +143,30 @@ body .user-dashboard-detail .icon-rounded-33 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 4px;
+  padding: 0.25rem;
+}
+
+body .user-dashboard-detail .icon-rounded-33 {
+  background: #2B2934;
+  border-radius: 2.063rem;
+  min-width: 2.063rem;
+  min-height: 2.063rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.25rem;
 }
 
 body .user-dashboard-detail .icon-rounded-50 {
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 0.625rem;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -113,9 +179,9 @@ body .user-dashboard-detail .icon-rounded-50 {
 }
 
 body .user-dashboard-detail .icon-rounded-94 {
-  width: 94px;
-  height: 94px;
-  border-radius: 10px;
+  width: 5.875rem;
+  height: 5.875rem;
+  border-radius: 0.625rem;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -191,7 +257,7 @@ body .user-dashboard-detail .toggle-switch-green .form-check-input:checked {
 
 body .user-dashboard-detail .sorting-group {
   padding: 0rem 0.75rem;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   background: #1F2026;
 }
 
@@ -204,7 +270,13 @@ body .user-dashboard-detail .sorting-group button.active {
 }
 
 body .user-dashboard-detail .btn {
-  border-radius: 10px;
+  border-radius: 0.625rem;
+}
+
+@media all and (max-width: 575px) {
+  body .user-dashboard-detail .btn {
+    border-radius: 0.325rem;
+  }
 }
 
 body .user-dashboard-detail .btn-outline-warning {
@@ -216,9 +288,5 @@ body .user-dashboard-detail .btn-outline-warning:hover {
   background: var(--orangeDarkColor);
   border-color: var(--orangeDarkColor);
   color: var(--whiteColor);
-}
-
-body .user-dashboard-detail .main-container {
-  width: calc(100% - 120px);
 }
 /*# sourceMappingURL=index.css.map */
