@@ -934,18 +934,18 @@
 @media screen and (max-width:430px) {
     .mobile-login-box{
         /* height: 550px; */
-        height:calc(100vh - 264px);
+        height:calc(100vh - 280px);
         bottom: 0;
     }
     .login-mobile .mb-first-sec{
-        margin-top: 30px;
+        padding-top: 30px;
     }
     .login-mobile .second-sec h3{
         font-size: 26px;
         line-height: 26px;
         margin-bottom: 20px;
     }
-    .mb-first-sec{
+    .login-mobile .mb-first-sec{
         padding-top: 40px;
     }
     .login-mobile .second-sec{
@@ -955,7 +955,9 @@
         width: 270px;
         height: 330px;
     }
-    
+    .mobile-login-box .frgt-line {
+        margin-bottom: 20px;
+    }
     .login-mobile .mb-first-sec .mb-fan{
         height: 290px;
     }
@@ -963,25 +965,25 @@
         height: 260px;
     }
     .mobile-login-box input{
-        height: 50px;
+        height: 40px;
         margin-bottom: 20px;
     }
     .mobile-login-box .login-btn{
-        height: 50px;
+        height: 40px;
         margin-bottom: 20px;
     }
     .mobile-login-box .regist-btn p{
         font-size: 18px;
     }
     .login-mobile .second-sec .icons .icon-box {
-        width: 83px;
-        height: 83px;
+        width: 73px;
+        height: 73px;
         margin-right: 25px;
     }
 
     .login-mobile .second-sec .icons .icon-box img {
-        width: 83px;
-        height: 83px;
+        width: 73px;
+        height: 73px;
     }
     .login-mobile .second-sec .icons .icon-box:nth-last-child(1) img {
         width: 58px;
@@ -1004,14 +1006,14 @@
         height: 378px;
     }
     .login-mobile .second-sec .icons .icon-box {
-        width: 83px;
-        height: 83px;
+        width: 73px;
+        height: 73px;
         margin-right: 25px;
     }
 
     .login-mobile .second-sec .icons .icon-box img {
-        width: 83px;
-        height: 83px;
+        width: 73px;
+        height: 73px;
     }
     .login-mobile .second-sec .icons .icon-box:nth-last-child(1) img {
         width: 58px;
