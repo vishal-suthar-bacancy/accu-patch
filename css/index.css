@@ -53,6 +53,14 @@ body .user-dashboard-detail .bg-dark {
   background: #1f2026 !important;
 }
 
+body .user-dashboard-detail .statue-sign {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #00ffaa;
+  display: inline-block;
+}
+
 body .user-dashboard-detail .text-FALLDETECTION {
   color: var(--FALLDETECTION);
 }
@@ -129,11 +137,15 @@ body .user-dashboard-detail .opacity-70 {
   opacity: 0.7;
 }
 
+body .user-dashboard-detail .fw-900 {
+  font-weight: 900 !important;
+}
+
 body .user-dashboard-detail .icon-rounded-24 {
   background: #2B2934;
   border-radius: 0.25rem;
-  min-width: 1.5rem;
-  min-height: 1.5rem;
+  width: 40px;
+  height: 40px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
