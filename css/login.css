@@ -695,6 +695,8 @@
     }
 
     .login-mobile .second-sec p {
+        font-size: 14px;
+        font-family: 'Gilroy-Medium';
         margin-bottom: 24px;
     }
 
@@ -748,7 +750,8 @@
         align-content: space-between;
         background-position: center;
         background-size: 100% 100%;
-        height: 606px;
+        /* height: 606px; */
+        height:calc(100vh - 320px);
         position: absolute;
         bottom: -22px;
         left: 50%;
@@ -913,9 +916,10 @@
     }
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:475px) {
     .mobile-login-box{
-        height: 570px;
+        /* height: 570px; */
+        height:calc(100vh - 284px);
     }
     .mobile-login-box input{
         height: 50px;
@@ -927,29 +931,36 @@
     }
 }
 
-@media screen and (max-width:391px) {
+@media screen and (max-width:430px) {
     .mobile-login-box{
-        height: 550px;
+        /* height: 550px; */
+        height:calc(100vh - 264px);
+        bottom: 0;
+    }
+    .login-mobile .mb-first-sec{
+        margin-top: 30px;
     }
     .login-mobile .second-sec h3{
-        font-size: 28px;
+        font-size: 26px;
+        line-height: 26px;
         margin-bottom: 20px;
     }
     .mb-first-sec{
         padding-top: 40px;
     }
     .login-mobile .second-sec{
-        padding: 0 20px 0 20px;
+        padding: 0 15px 0 15px;
     }
     .login-mobile .mb-first-sec::before{
-        width: 310px;
-        height: 418px;
+        width: 270px;
+        height: 330px;
     }
+    
     .login-mobile .mb-first-sec .mb-fan{
-        height: 340px;
+        height: 290px;
     }
     .login-mobile .mb-first-sec.hideimg .mb-fan{
-        height: 320px;
+        height: 260px;
     }
     .mobile-login-box input{
         height: 50px;
@@ -958,6 +969,23 @@
     .mobile-login-box .login-btn{
         height: 50px;
         margin-bottom: 20px;
+    }
+    .mobile-login-box .regist-btn p{
+        font-size: 18px;
+    }
+    .login-mobile .second-sec .icons .icon-box {
+        width: 83px;
+        height: 83px;
+        margin-right: 25px;
+    }
+
+    .login-mobile .second-sec .icons .icon-box img {
+        width: 83px;
+        height: 83px;
+    }
+    .login-mobile .second-sec .icons .icon-box:nth-last-child(1) img {
+        width: 58px;
+        height: 58px;
     }
 }
 
@@ -988,5 +1016,8 @@
     .login-mobile .second-sec .icons .icon-box:nth-last-child(1) img {
         width: 58px;
         height: 58px;
+    }
+    .mobile-login-box .regist-btn p{
+        font-size: 16px;
     }
 }
